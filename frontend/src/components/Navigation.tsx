@@ -1,11 +1,10 @@
 import React from "react";
-
 const Navigation = () => {
   return (
     <nav className="navbar navbar-expand-lg">
       <div className="container-fluid">
-        <a className="navbar-brand" href="#">
-          Navbar
+        <a className="logo" href="#">
+          <img src={require("../assets/images/logo-1.png")} />
         </a>
         <button
           className="navbar-toggler"
